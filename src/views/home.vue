@@ -2,7 +2,7 @@
     <div>
     <cabezera/>
 
-    <!-- <img id="imagen_fondo" src="../assets/Escudo_San_Gil.png" > -->
+    
 
     </div>
 
