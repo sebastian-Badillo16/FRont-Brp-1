@@ -40,6 +40,6 @@ export const routes = [
       path: '/verVisitas',
       name: 'verVisitas',
       component: verVisitas
-    },
+    }
     
 ]

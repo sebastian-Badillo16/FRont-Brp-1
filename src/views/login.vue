@@ -66,7 +66,7 @@ login() {
             this.$store.dispatch('setNombre', response.data.usuario.Nombre);
          
             this.$router.push("/home");
-            console.log(response);
+            //console.log(response);
 
             //Local
             this.valid = true
@@ -80,7 +80,7 @@ login() {
             });
             })
       .catch((error) =>{
-            console.log(error.response);
+            //console.log(error.response);
 
             Swal.fire({
               icon: 'error',
