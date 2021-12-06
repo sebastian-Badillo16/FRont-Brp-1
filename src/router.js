@@ -10,7 +10,7 @@ import verVisitas from './views/verVisitas'
 
 export const routes = [
     {
-      path: "/home",
+      path: "/",
       name: 'home',
       component: home
     },
@@ -40,6 +40,6 @@ export const routes = [
       path: '/verVisitas',
       name: 'verVisitas',
       component: verVisitas
-    }
+    },
     
 ]
