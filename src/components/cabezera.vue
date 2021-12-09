@@ -119,21 +119,7 @@ export default {
         });
       }
     },
-    Graficas() {
-      if (this.Rol == "ADMIN_ROL" || this.Rol == "REGISTRADOR_ROL") {
-        
-
-        this.$router.push("/graficas");
-      } else {
-        
-
-        Swal.fire({
-          icon: "error",
-          title: "Oops...",
-          text: "No posee los permisos para ir a esta ventana",
-        });
-      }
-    },
+  
 
 
 
@@ -172,20 +158,20 @@ export default {
 </script>
 
 <style scope>
-* {
+/* * {
   padding: 50px;
-  margin: 200px;
+  margin: 50px;
   border-radius: 5px;
-}
+} */
 
 #headers {
-  margin: auto;
+  /* margin: auto; */
   width: max-content;
   /*background-color: #dc9fff;*/
   text-align: center;
   display: block;
   color: #fff;
-  max-width: 1000px;
+  /* max-width: 10px; */
 }
 
 ul,
@@ -197,7 +183,7 @@ ol {
   background: #e01638;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  padding: 20px 20px;
+  /* padding: 20px 20px; */
   display: block;
 }
 
@@ -208,7 +194,7 @@ ol {
 .nav li ul {
   display: none;
   position: absolute;
-  min-width: 300px;
+  /* min-width: 10px; */
 }
 
 .nav > li {
@@ -238,7 +224,7 @@ a {
 
   /*Centrar el navegador*/
   padding-top: 50px;
-  padding-bottom: 90px;
+  padding-bottom: 50px;
 }
 
 #navigation :hover{

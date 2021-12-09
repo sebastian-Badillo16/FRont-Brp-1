@@ -1,16 +1,15 @@
 import login from './views/login'
+// import home from './views/home.vue'
 import home from './views/home'
 import dependencias  from './views/dependencias'
 import usuarios  from './views/usuarios'
-
-
 import visitas from './views/visitas'
 import verVisitas from './views/verVisitas'
 
 
 export const routes = [
     {
-      path: "/",
+      path: "/home",
       name: 'home',
       component: home
     },

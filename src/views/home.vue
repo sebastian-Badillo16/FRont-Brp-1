@@ -10,7 +10,7 @@
 
 <script>
 
-import cabezera from '../components/cabezera.vue'
+import cabezera from '../components/cabezera'
 export default {
     components: {
         cabezera
@@ -25,7 +25,7 @@ export default {
    
 
     #imagen_fondo{
-        max-width: 100%;
+        max-width: 10%;
         height: 10%;
     }
 </style>
